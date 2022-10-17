@@ -3,7 +3,7 @@
 #     This means its reference ignores block scope
 
 ###### 2. What will happen at line 13 and why? If the code causes an error, explain why. 
-#    Line 13 will print the array "[150,100,50]"
+#    Line 13 will print the array [150,100,50]
 # 
 
 ###### 3. What will happen at line 14 and why? If the code causes an error, explain why. 
@@ -52,5 +52,6 @@
 
 ###### Access the first index in the array of the courseLoad property of the student object
 #      student.courseload[0]
+
   
 
