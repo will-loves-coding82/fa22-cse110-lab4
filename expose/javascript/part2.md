@@ -97,3 +97,7 @@ Outputs false since true maps to 1 and 1 is not equal to 2
 
 ## 14f.  true===Boolean(2)
 Boolean will evalaute anything with a value to true. Since true is equal to true, this outputs true
+
+## 15. Explain the difference between the == and === operators
+They are very similar but the === will also compare datatypes
+
