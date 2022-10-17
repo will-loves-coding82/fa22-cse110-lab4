@@ -54,5 +54,46 @@ to change the empty array which is defined as a constant.
 ## 12e. Access the first index in the array of the courseLoad property of the student object
 `student.courseload[0]`
 
-  
+## 13a. '3'+2
+Outputs 32 since the integer 2 maps to its exact string representation '2' 
+so this is essentially string concatenation
 
+## 13b. '3'-2
+Outputs the number 1. '3' was converted to an integer to perform substraction of 2
+
+## 13c. 3+null
+Outputs the number 3 since null maps to 0
+
+## 13d. '3'+null
+Outputs '3null' since null becomes a string to concatenate with '3'
+
+## 13e. true+3
+Outputs 4 since true is the same as 1
+
+## 13f. false+null
+Since false maps to the int 0 and null map to 0 as well
+
+## 13g. '3'+undefined
+'3undefined' since undefined was converted to a string
+
+## 13h. '3'-undefined
+Outputs NaN since  '3' became an int but any operation with NaN will output NaN
+
+## 14a. '2'>1
+'2' is converted to its integer representation so 2 is greater 1. So it outputs true
+
+## 14b. '2'<'12'
+Outputs false since it performs string comparison character by character.
+Since the first characters compared are '2' and '1', '2' is certainly larger so this inequality is false
+
+## 14c.  2=='2'
+Outputs true since the string '2' becomes a number 2 which is equal to 2
+
+## 14d.  2==='2'
+This comparison is type sensitive so 2 and '2' are not the same data types. Returns false
+
+## 14e.  true==2
+Outputs false since true maps to 1 and 1 is not equal to 2
+
+## 14f.  true===Boolean(2)
+Boolean will evalaute anything with a value to true. Since true is equal to true, this outputs true
