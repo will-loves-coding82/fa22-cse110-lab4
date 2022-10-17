@@ -104,3 +104,6 @@ They are very similar but the === will also compare datatypes
 ## 17. What is the result of passing the parameters to modifyArray?
 The function should return [6, 4, 2]. Stepping into the function we are given parameters [1,2,3] and the callback
 doSomething. Inside modifyArray, we iterate through each index of the array starting from index 0 to index 2. For each index, we multiply it by 2 by passing it to doSomething(argument). The product is then pushed to the end of a new array. This means the result should be the original array but each entry is doubled and reversed.
+
+## 19. What is the result of the code?
+The code outputs 1, 4, 3, 2
